@@ -98,17 +98,10 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: inside
-theme_config:
-  # Sidebar profile
-  profile:
-    # 邮箱用于生成 gravatar 头像，如配置了 `hexo.config.email`，此项可缺省
-    email:
-    # 也可以直接设置头像 URL
-    avatar: https://avatars.githubusercontent.com/u/37294237?v=4
-    # 个性签名
-    bio: Awesome guy！
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: git
+  repo: https://github.com/wangmiao8/imunoko.git
+  branch: master

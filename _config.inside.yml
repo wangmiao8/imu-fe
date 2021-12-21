@@ -35,11 +35,7 @@ appearance:
     # Sidebar author font, fallback to `base`
     logo:
     # Sidebar menu font, fallback to `base`
-<<<<<<< HEAD
-    menu: 'Baloo Bhaijaan'
-=======
     menu: "Baloo Bhaijaan"
->>>>>>> bbcca5099e89b925681c4d6c5f3af61eff8baf76
     # Font for:
     # - percentage on the fab button
     # - month text on archives page
@@ -87,20 +83,6 @@ appearance:
   # ]
 
   darkmode:
-<<<<<<< HEAD
-    accent_color: '#539bf5'
-    foreground_color: '#adbac7'
-    border_color: '#373e47'
-    background: '#22272e'
-    sidebar_background: '#22272e'
-    card_background: '#2d333b'
-    highlight: [
-      '#2d333b', '#444c56', '#3e4451', '#545862',
-      '#565c64', '#abb2bf', '#b6bdca', '#c8ccd4',
-      '#e06c75', '#d19a66', '#e5c07b', '#98c379',
-      '#56b6c2', '#61afef', '#c678dd', '#be5046'
-    ]
-=======
     accent_color: "#539bf5"
     foreground_color: "#adbac7"
     border_color: "#373e47"
@@ -126,21 +108,14 @@ appearance:
         "#c678dd",
         "#be5046",
       ]
->>>>>>> bbcca5099e89b925681c4d6c5f3af61eff8baf76
 
 # Sidebar profile
 profile:
   # `email` is used for gravatar(https://en.gravatar.com),
   # fallback to `hexo.config.email` if not specified
   email:
-<<<<<<< HEAD
-
-  # You can set Avatar URL directly
-  # avatar:
-=======
   # You can set Avatar URL directly
   avatar: https://avatars.githubusercontent.com/u/37294237?v=4
->>>>>>> bbcca5099e89b925681c4d6c5f3af61eff8baf76
 
   bio: Awesome guy.
 
@@ -149,11 +124,7 @@ menu:
   Home: /
   # About: /about
   # Links: /links
-<<<<<<< HEAD
   # Github: https://github.com/username
-=======
-  Github: https://github.com/wangmiao8
->>>>>>> bbcca5099e89b925681c4d6c5f3af61eff8baf76
 
 # Social media URL
 sns:
@@ -191,10 +162,6 @@ footer:
   # custom: Hosted by <a target="_blank" rel="external nofollow"
   #   href="https://pages.github.com/"><b>Github Pages</b></a>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> bbcca5099e89b925681c4d6c5f3af61eff8baf76
 # ---------------------------------------------------------------
 # Content
 # ---------------------------------------------------------------
@@ -210,10 +177,6 @@ page:
   # Display copyright notice, default to `false`
   # copyright: true
 
-<<<<<<< HEAD
-
-=======
->>>>>>> bbcca5099e89b925681c4d6c5f3af61eff8baf76
 # Post
 post:
   # per_page: 10
@@ -286,10 +249,6 @@ search:
   #     # Used to retrieve content from per hit
   #     content: _snippetResult.content.value
 
-<<<<<<< HEAD
-
-=======
->>>>>>> bbcca5099e89b925681c4d6c5f3af61eff8baf76
 # ---------------------------------------------------------------
 # Content addons
 # ---------------------------------------------------------------
@@ -358,10 +317,6 @@ comments:
   #   # Autoload, default to `true`, set to `false` to display a button
   #   autoload: false
 
-<<<<<<< HEAD
-
-=======
->>>>>>> bbcca5099e89b925681c4d6c5f3af61eff8baf76
 # ---------------------------------------------------------------
 # Misc
 # ---------------------------------------------------------------
@@ -471,14 +426,7 @@ plugins:
 
   # Dynamic inject html snippet
   # - position: # sidebar | post | page | comments | avatar | head_begin | head_end | body_begin | body_end
-<<<<<<< HEAD
-    # HTML code
-    # template: <script>...</script>
-    # Or a path relative to `hexo.base_dir`
-    # template: snippets/snippet-1.html
-=======
   # HTML code
   # template: <script>...</script>
   # Or a path relative to `hexo.base_dir`
   # template: snippets/snippet-1.html
->>>>>>> bbcca5099e89b925681c4d6c5f3af61eff8baf76

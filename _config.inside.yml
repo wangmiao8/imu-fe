@@ -117,7 +117,7 @@ profile:
   # You can set Avatar URL directly
   avatar: https://avatars.githubusercontent.com/u/37294237?v=4
 
-  bio: Awesome guy☃️
+  bio: Awesome guy☀️
 
 # Sidebar navigation links
 menu:
@@ -150,7 +150,7 @@ sns:
 # Sidebar footer copyright info
 footer:
   # Set to false to hide.
-  copyright: '&copy; 2019 ❤️ <a href="">imunoko</a>'
+  copyright: '&copy; 2021 ❤️ <a href="">imunoko</a>'
 
   # Set to false to hide Hexo link.
   # powered: false

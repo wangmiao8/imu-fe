@@ -58,18 +58,18 @@ module.sayName("noko");
 
 ```javascript
 ;(function(window){
-	let data = 1
+  let data = 1
 
-	const setData = (newData) => {
-		data = newData
-	}
+  const setData = (newData) => {
+    data = newData
+  }
 
-	const getData = () => console.log(data)
+  const getData = () => console.log(data)
 
-	window.module = {
-		setData,
-		getData
-	}
+  window.module = {
+    setData,
+    getData
+  }
 }
 })(window)
 
@@ -86,23 +86,23 @@ module.getData() // 2
 
 ```javascript
 ;(function(window, $){
-	let data = 1
+  let data = 1
 
-	const setData = (newData) => {
-		data = newData
-	}
+  const setData = (newData) => {
+    data = newData
+  }
 
-	const getData = () => console.log(data)
+  const getData = () => console.log(data)
 
-	const changeColor = () => {
-		$('body').css('background', 'red')
-	}
+  const changeColor = () => {
+    $('body').css('background', 'red')
+  }
 
-	window.module = {
-		setData,
-		getData,
-		changeColor
-	}
+  window.module = {
+    setData,
+    getData,
+    changeColor
+  }
 }
 })(window, jQuery)
 
@@ -117,7 +117,7 @@ window.changeColor()
 // html 文件按顺序引入
 <script type="text/javascript" src="jquery-1.10.1.js"></script>
 <script type="text/javascript" src="module.js"></script> <script type="text/javascript">
-	module.changeColor()
+  module.changeColor()
 </script>
 ```
 
@@ -173,7 +173,7 @@ module.exports = "Hello world";
 
 **使用场景：** Node.js、小程序、浏览器（Browserify）
 
-**特点：** 
+**特点：**
 
 - 运行时加载，并且第一次加载模块后会被缓存
 
@@ -194,7 +194,7 @@ let a = require("./a"); // 执行到此处时，a.js 才同步下载并执行
 
 在浏览器中可以使用 browserify 实现，由于 CommonJS 同步加载的方式，而同步意味着阻塞加载，所以在浏览器环境并不适用；而服务器文件都在在本地，加载速度快，CommonJS 是适用的。
 
-**举一个栗子 🌰：** 
+**举一个栗子 🌰：**
 
 ```javascript
 // 定义模块math.js
@@ -215,7 +215,7 @@ let math = require('./math');
 math.add(2, 5);
 
 // 引用核心模块时，不需要带路径
-var http = require('http');
+let http = require('http');
 http.createService(...).listen(3000);
 ```
 
@@ -249,6 +249,6 @@ require(["module1", "module2"], function (m1, m2) {
 
 **使用场景：** 浏览器
 
-**特点：** 
+**特点：**
 
 - 异步加载，提前执行依赖

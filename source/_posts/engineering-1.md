@@ -2,7 +2,7 @@
 title: 前端现代模块化机制
 top: true
 date: 2021-12-27 01:50:21
-tags: Engineering
+tags: FE
 ---
 
 模块化的好处：

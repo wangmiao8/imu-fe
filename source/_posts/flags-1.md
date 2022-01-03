@@ -1,7 +1,7 @@
 ---
 title: 🍭Flags for 2021
 date: 2021-10-27 00:56:21
-tags: Flags
+tags: Flag
 toc: true
 ---
 

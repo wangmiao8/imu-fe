@@ -57,6 +57,13 @@ appearance:
   # the default theme is a customized Atelier Dune Light theme,
   # please feel free to explore more.
   highlight:
+  # one light
+  # highlight: [
+  #   '#fafafa', '#f0f0f1', '#e5e5e6', '#a0a1a7',
+  #   '#696c77', '#383a42', '#202227', '#090a0b',
+  #   '#ca1243', '#d75f00', '#c18401', '#50a14f',
+  #   '#0184bc', '#4078f2', '#a626a4', '#986801'
+  # ]
 
   # Default Light by Chris Kempson (http://chriskempson.com)
   # highlight: [
@@ -121,7 +128,8 @@ profile:
 
 # Sidebar navigation links
 menu:
-  Home: /
+  主页: /
+  搜索: /search
   # About: /about
   # Links: /links
   Github: https://github.com/wangmiao8
@@ -205,18 +213,18 @@ category:
 # Search
 search:
   # Display a quick search button in fab
-  # fab: true
+  fab: true
 
   # Render a standalone searh page which can be configured in sidebar menu such as `Search: /search`
-  # page: true
+  page: true
 
   # Local search
-  # adapter:
-  #   range:
-  #     - post
-  #     - page
-  #   per_page: 20
-  #   limit: 10000
+  adapter:
+    range:
+      - post
+      - page
+    per_page: 20
+    limit: 10000
 
   # Custom search
   # adapter:
